@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/*.js": false,
+        "**/node_modules": false,
+        "**/bower_components": false,
+        "**/*.map": true,
+        "**/*.tmp": false,
+        "**/dist": false
+    },
+    "files.autoSave": "onFocusChange"
+}
