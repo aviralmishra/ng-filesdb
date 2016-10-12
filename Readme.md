@@ -13,16 +13,24 @@ It allows the user to:
 Run the following commands to run the 'dev' build of the application:
 
 1. git clone https://github.com/aviralmishra/ng-filesdb.git
-2. cd ng-filesdb 
-3. gulp serve-dev
+2. cd ng-filesdb
+3. npm install
+4. gulp serve-dev
 
-## TO do
+Run the following commands to run the 'dev' build of the application:
+
+1. git clone https://github.com/aviralmishra/ng-filesdb.git
+2. cd ng-filesdb 
+3. npm install
+4. gulp serve-build
+
+## To do
 
 1. Integrate build process with continuous integration.
 2. Add tests for client code as well and integrate their execution to the build process
 3. Split the server code in a different project and deployment for better maintainability
 4. Check that the application is supported in IE.
-5. Do not allow access to the 'uploads' directory content through a URL. This would pose a risk.
+5. When adding download support, do not allow access to 'uploads' directory content through a URL. This would pose a risk.
 
 ## Tests
 
