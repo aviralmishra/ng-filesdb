@@ -53,9 +53,6 @@ gulp.task('images', ['clean-images'], function () {
 
   return gulp
     .src(config.images)
-    .pipe($.imagemin({
-      optimizationLevel: 4
-    }))
     .pipe(gulp.dest(config.build + 'images'));
 });
 
@@ -305,16 +302,16 @@ function startBrowserSync(isDev, specRunner) {
       config.temp + '**/*.css'
     ] : [],
     ghostMode: {
-      clicks: true,
+      clicks: false,
       location: false,
-      forms: true,
-      scroll: true
+      forms: false,
+      scroll: false
     },
     injectChanges: true,
     logFileChanges: true,
     logLevel: 'debug',
     logPrefix: '[filesdb]',
-    notify: true,
+    notify: false,
     reloadDelay: 0
   };
 
