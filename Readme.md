@@ -32,6 +32,7 @@ Run the following commands to run the 'dev' build of the application:
 4. Check that the application is supported in IE.
 5. When adding download support, do not allow access to 'uploads' directory content through a URL. This would pose a risk.
 6. Integrate build process with continuous integration.
+7. Verify that application can store locally with store switch.
 
 ## Tests
 
