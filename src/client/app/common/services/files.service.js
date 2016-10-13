@@ -18,7 +18,7 @@
     return service;
 
     function getFiles() {
-      return $http.get('http://localhost:4000/api/files')
+      return $http.get('/api/files')
         .then(function uploadComplete(data, status, headers, config) {
           return data.data;
         })

@@ -7,7 +7,10 @@
 						<a class="btn btn-primary" ng-click="pm.downloadFile(pm.file.name)">
 							<i class="fa fa-download" aria-hidden="true"></i>
 						</a>
-						<span class="text">{{pm.file.name}}</span>
+						<span class="text">
+              {{pm.file.name}}
+              <i class="fa fa-at" aria-hidden="true"></i>{{pm.file.date | date:'dd/MM/yyyy HH:mm:ss'}}
+            </span>
 					</td>
 				</tr>
 			</tbody>

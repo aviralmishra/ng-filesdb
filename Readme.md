@@ -26,11 +26,12 @@ Run the following commands to run the 'dev' build of the application:
 
 ## To do
 
-1. Integrate build process with continuous integration.
+1. Display "loading" icon while files are being fetched.
 2. Add tests for client code as well and integrate their execution to the build process
 3. Split the server code in a different project and deployment for better maintainability
 4. Check that the application is supported in IE.
 5. When adding download support, do not allow access to 'uploads' directory content through a URL. This would pose a risk.
+6. Integrate build process with continuous integration.
 
 ## Tests
 

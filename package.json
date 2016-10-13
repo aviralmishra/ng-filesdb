@@ -17,6 +17,7 @@
     "start": "node src/server/app.js"
   },
   "dependencies": {
+    "aws-sdk": "2.6.8",
     "body-parser": "^1.14.1",
     "compression": "^1.1.0",
     "cookie-parser": "^1.4.0",
@@ -27,6 +28,7 @@
     "jade": "^1.11.0",
     "morgan": "^1.1.1",
     "multer": "1.2.0",
+    "multer-s3": "2.3.2",
     "request": "2.75.0",
     "serve-favicon": "^2.0.1"
   },

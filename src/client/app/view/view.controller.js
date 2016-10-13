@@ -21,7 +21,7 @@
 
     function activate() {
       getFiles().then(function () {
-        console.log('Activated My Files View');
+        // console.log('Activated My Files View');
       });
     }
 
@@ -32,7 +32,7 @@
     }
 
     function downloadFile(file) {
-      console.log(angular.toJson(file, true));
+      // console.log(angular.toJson(file, true));
     }
 
     function goBack() {
