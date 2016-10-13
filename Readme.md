@@ -39,4 +39,32 @@ Run the following commands to run the 'dev' build of the application:
 1. Chrome and Safari are supported.
 2. Maximum file size per upload is 1MB, enforced on both Client and Server.
 
+## Notes
 
+'src/server/config/config.js' and 'src/server/config/aws.json' files are not added to the repo as they contain sensitive information.
+
+You will need to provide the files to get the application running. Here is the template for the fils:
+
+
+src/server/config/config.js
+```
+module.exports = function () {
+
+  var CONFIG = {
+    'UPLOADS': '<Uploads directory path>',
+    'AWS_CONFIG': '<aws.json file path>',
+    'AWS_S3_BUCKET': '<AWS S3 bucket name>'
+  };
+
+  return CONFIG;
+};
+```
+
+src/server/config/aws.json
+```
+{
+  "accessKeyId": "<AWS user access key id>",
+  "secretAccessKey": "<AWS user access key>",
+  "region": "<AWS region>"
+}
+```
